@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "rn_crash",
-    "slug": "rn_crash",
+    "name": "RN APP",
+    "slug": "rn_app",
+    "scheme": "app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
